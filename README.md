@@ -1,27 +1,23 @@
-# Indus-ID-System: Ancient Identity & Logistics Protocol
+# [IIP] Indus-Identity-Protocol v1.0
+[![Security: Physical Anchor](https://img.shields.io/badge/Security-Physical_Anchor-blue)](#)
+[![Logic: Formalized](https://img.shields.io/badge/Logic-Formalized-green)](#)
+[![Status: Frozen](https://img.shields.io/badge/Status-Frozen-red)](#)
 
-## 0. Abstract
-インダス印章は「文章」ではなく、高度に規格化された「IDシステム」である。
-本リポジトリは、未解読のインダス文字を古代の物流管理・権限証明プロトコルとしてリバースエンジニアリングした論理モデルを定義する。
+## 🏛️ Project Concept
+未解読の「インダス文字」を言語学ではなく、古代の物流・権限管理システム（IDシステム）としてリバースエンジニアリングした論理モデルの定義。
 
-## 1. Data Structure (Four-Layer Model)
-インダス印章に刻まれた文字列を、以下の4つのメタデータ層として定義：
+## ⚙️ Architecture: Logical Defense Anchor
+LDG V2 (Logical Defense Grid) の思想に基づき、印章のデータ構造を以下の検証鎖として定義する。
 
-- **L1: Organization Anchor (旗)** - 発行元（都市・ギルド）の信用証明。
-- **L2: Authority Definition (人型)** - 役職、およびリソースへのアクセス権。
-- **L3: Identity Hash (個人名)** - 最終責任者の特定。
-- **L4: Integrity Marker (有効記号)** - データの終端および署名の正当性。
-
-## 2. Security Logic
-- **Dual-Layer Auth**: 
-  - **Public Label (動物)**: 非識字者向けのブランドUI。
-  - **Secure Script (文字)**: 専門官向けの内部管理データ。
-- **Economic Denial**: 
-  偽造困難な物理印章による取引コストの制御。
-
-## 3. Background
-LDG V4.1 (Logical Defense Grid) 構築における「物理的信頼の固定」の概念を、人類最古の規格化文明に適用した研究成果である。
-
-## 4. License
-MIT License / Created by Designer Hinaena
-
+```mermaid
+graph TD
+    A[Indus Seal Body] --> B[L1: Organization Anchor]
+    A --> C[L2: Role Descriptor]
+    A --> D[L3: Identity Hash]
+    A --> E[L4: Integrity Check]
+    B --> F{Physical Verification}
+    C --> F
+    D --> F
+    E --> F
+    F --> G[Trusted Transaction]
+```
