@@ -9,7 +9,7 @@
 ## ⚙️ Architecture: Logical Defense Anchor
 LDG V2 (Logical Defense Grid) の思想に基づき、印章のデータ構造を以下の検証鎖として定義する。
 
-![indus](indus.png)
+![indus](/indus.png)
 
 | L4: Integrity Check | データの終端と有効性証明 | Checksum / EOF |
 
