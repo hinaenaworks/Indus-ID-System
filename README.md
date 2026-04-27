@@ -20,6 +20,5 @@ graph TD
     D --> F
     E --> F
     F --> G[Trusted Transaction]
-
-```
+　　 ```
 
