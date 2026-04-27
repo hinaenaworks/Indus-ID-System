@@ -19,6 +19,5 @@ graph TD
     C --> F
     D --> F
     E --> F
-    F --> G[Trusted Transaction]
-　　 ```
+    F --> G[Trusted Transaction]```
 
