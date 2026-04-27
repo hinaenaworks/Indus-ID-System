@@ -21,6 +21,7 @@ graph TD
     E --> F
     F --> G[Trusted Transaction]
 ```
+
 | L4: Integrity Check | データの終端と有効性証明 | Checksum / EOF |
 
 ## 🛡️ Economic Denial (経済的拒否)
