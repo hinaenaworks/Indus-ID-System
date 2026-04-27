@@ -19,5 +19,17 @@ graph TD
     C --> F
     D --> F
     E --> F
-    F --> G[Trusted Transaction]```
+    F --> G[Trusted Transaction]
+```
+| L4: Integrity Check | データの終端と有効性証明 | Checksum / EOF |
+
+## 🛡️ Economic Denial (経済的拒否)
+インダス印章は、その製造における「物理的エントロピー（個体差）」により、当時の技術水準での偽造を経済的に不可能にしていた。これが古代における「ゼロ・トラスト・ネットワーク」の基盤である。攻撃者は印章そのものを物理的に奪取しない限り、システムへの「なりすまし」は不可能となる。
+
+## 📜 結論：物理的な錨（Physical Anchor）
+インダス文明が提示したこのシステムは、知能（AI）を物理（石と鍵）で縛り上げる、人類最古にして究極のセキュリティプロトタイプである。
+
+---
+**Architect:** Designer Hinaena
+**Reference:** [Logical Defense Grid (LDG) V4.1]
 
