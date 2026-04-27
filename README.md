@@ -9,18 +9,7 @@
 ## ⚙️ Architecture: Logical Defense Anchor
 LDG V2 (Logical Defense Grid) の思想に基づき、印章のデータ構造を以下の検証鎖として定義する。
 
-```mermaid
-graph TD
-    A[Indus Seal Body] --> B[L1: Organization Anchor]
-    A --> C[L2: Role Descriptor]
-    A --> D[L3: Identity Hash]
-    A --> E[L4: Integrity Check]
-    B --> F{Physical Verification}
-    C --> F
-    D --> F
-    E --> F
-    F --> G[Trusted Transaction]
-```
+
 
 | L4: Integrity Check | データの終端と有効性証明 | Checksum / EOF |
 
